@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#participants li {
+    margin: 5px;
+    font-size: 25px;
+    display: inline-block; 
+}
+
+#participants li::after {
+    content: " / "; 
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#participants li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#winner {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#countdown {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#rollButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
